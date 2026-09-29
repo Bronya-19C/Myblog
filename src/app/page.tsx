@@ -4,8 +4,7 @@ export default function Home() {
       {/* 头部区域 */}
       <section className="text-center py-16">
         <h1 className="text-4xl font-bold mb-4 tracking-tight">
-          <span className="text-[var(--accent-blue)]">ARK</span>
-          <span className="text-[var(--text-primary)]">BLOG</span>
+          <span className="text-[var(--accent-blue)]">sorakado</span>
         </h1>
         <p className="text-[var(--text-secondary)] text-lg">
           —— 记录思考与日常 ——

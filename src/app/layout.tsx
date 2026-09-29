@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MyBlog",
+  title: "sorakado",
   description: "记录思考与日常",
 };
 
@@ -21,9 +21,9 @@ export default function RootLayout({
               href="/"
               className="text-lg font-bold tracking-wider text-[var(--accent-blue)] hover:text-[var(--accent-orange)] transition-colors"
             >
-              ARK
+              sorakado
               <span className="text-[var(--text-secondary)] text-sm ml-1 font-normal">
-                //BLOG
+                .log
               </span>
             </a>
             <div className="flex gap-6 text-sm text-[var(--text-secondary)]">
@@ -50,7 +50,7 @@ export default function RootLayout({
 
         {/* 页脚 */}
         <footer className="border-t border-[var(--border-dim)] py-8 text-center text-xs text-[var(--text-secondary)]">
-          <p>ARK//BLOG © {new Date().getFullYear()}</p>
+          <p>sorakado.log © {new Date().getFullYear()}</p>
         </footer>
       </body>
     </html>
